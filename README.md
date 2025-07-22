@@ -38,25 +38,25 @@ This app enforces strong separation between:
 
 ### 🗂️ Project Structure
 
-com.biplob.cleanarchitecturedemo
-│
-├── application/
-│ └── usecase/ # Use cases (Application Layer)
-│
-├── data/
-│ ├── model/ # API DTOs (UserDto)
-│ ├── repository/ # Repository implementations
-│ └── source/ # Data sources (Remote/Local)
-│
-├── domain/
-│ ├── model/ # Pure business models (User)
-│ └── repository/ # Repository interfaces
-│
-└── presentation/
-├── common/ # Adapter, Singleton holder, etc.
-├── splash/ # SplashActivity
-├── userdetail/ # UserDetailActivity
-└── userlist/ # UserListActivity
+- com.biplob.cleanarchitecturedemo
+- │
+- ├── application/
+- │ └── usecase/ # Use cases (Application Layer)
+- │
+- ├── data/
+- │ ├── model/ # API DTOs (UserDto)
+- │ ├── repository/ # Repository implementations
+- │ └── source/ # Data sources (Remote/Local)
+- │
+- ├── domain/
+- │ ├── model/ # Pure business models (User)
+- │ └── repository/ # Repository interfaces
+- │
+- └── presentation/
+- ├── common/ # Adapter, Singleton holder, etc.
+- ├── splash/ # SplashActivity
+- ├── userdetail/ # UserDetailActivity
+- └── userlist/ # UserListActivity
 
 
 ---
@@ -131,5 +131,15 @@ Data (Repository Impl, Data Sources, DTOs)
 
 ## 🚦 Demo
 
-| Splash Screen | User List & Search | User Detail |
-|--------------|--------------------|-------------|
+- | Splash Screen | User List & Search | User Detail |
+- |--------------|--------------------|-------------|
+
+  
+<img width="1224" height="2570" alt="Screenshot_20250723_003911" src="https://github.com/user-attachments/assets/87c35d44-16ee-4ffb-89b7-7fc4b94440e9" />
+
+<img width="1224" height="2570" alt="Screenshot_20250723_003918" src="https://github.com/user-attachments/assets/67556fac-e97d-4bc7-90e7-a5480659fb16" />
+
+<img width="1224" height="2570" alt="Screenshot_20250723_003927" src="https://github.com/user-attachments/assets/607145f6-7eac-4081-b936-b02f614dfe17" />
+
+
+
