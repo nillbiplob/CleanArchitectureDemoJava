@@ -1,11 +1,5 @@
 package com.biplob.cleanarchitecturedemo.domain.model;
 
-//Domain layer does not depend on anything else.
-//
-//It’s pure Java, and fully unit-testable.
-//
-//This is the "innermost" part of clean architecture.
-
 public class User {
     private int id;
     private String name;
