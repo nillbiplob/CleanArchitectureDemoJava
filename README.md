@@ -61,6 +61,16 @@ This app enforces strong separation between:
 
 ---
 
+## 🧪 Unit Testing
+
+This project is designed for robust unit testing at every layer.  
+Sample tests included:
+
+- **Java (JUnit):**  
+  `src/test/java/com/biplob/cleanarchitecturedemo/domain/model/UserTest.java`  
+  `src/test/java/com/biplob/cleanarchitecturedemo/application/usecase/GetUsersUseCaseTest.java`
+  
+
 ### 🔗 Public API Used
 
 - [JSONPlaceholder /users](https://jsonplaceholder.typicode.com/users)
