@@ -10,4 +10,3 @@ This project uses Clean Architecture principles, which enforce strong separation
 
 This structure ensures your codebase is highly testable, maintainable, and scalable.
 
-![Clean Architecture Diagram](https://i.imgur.com/hRQWmOa.png)
