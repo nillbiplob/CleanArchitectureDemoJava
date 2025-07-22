@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Search bar with clear icon -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:hint="Search users..."
+            android:background="@drawable/search_bg"
+            android:paddingEnd="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/icClear"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:contentDescription="Clear"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!-- User list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"/>
+
+    <!-- Refresh button at the bottom -->
+    <Button
+        android:id="@+id/btnRefresh"
+        android:text="Refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"/>
+</LinearLayout>
